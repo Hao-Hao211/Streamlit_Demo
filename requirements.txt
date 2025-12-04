@@ -1,0 +1,8 @@
+streamlit
+fastapi
+sqlmodel
+uvicorn
+plotly
+pandas
+openpyxl
+pydantic

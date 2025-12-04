@@ -5,9 +5,12 @@ This demo demonstrates an architecture using **FastAPI** for the backend and **S
 
 ## How to Run
 
-You will need to run the backend and frontend in separate terminal windows. If you haven't install streamlit, please install it:
+You will need to run the backend and frontend in separate terminal windows. 
+
+### 0. Setup Environment
+To set up the project environment, run the following command in your terminal to install the requirements :
 ```bash
-pip install streamlit
+pip install -r requirements.txt
 ```
 
 ### 1. Start the Backend Server

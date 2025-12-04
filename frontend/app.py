@@ -130,7 +130,7 @@ def main():
     # Global Filters
     selected_type = st.sidebar.selectbox("Select Event Type", ["All", "Summer", "Winter"])
 
-    # Handle slider range safely
+    # Handle slider range
     min_year = int(raw_df['year'].min())
     max_year = int(raw_df['year'].max())
     year_range = st.sidebar.slider("Select Year Range",
@@ -187,7 +187,7 @@ def main():
 
         with col_left:
             # 2. Bubble Chart (Plotly) - Sports vs Countries Count
-            st.markdown("#### Sports vs. Countries Counts")
+            st.markdown("#### Sports vs. Countries Involved")
             fig_bubble = px.scatter(
                 filtered_df,
                 x="countries_count",
